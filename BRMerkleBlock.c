@@ -31,7 +31,7 @@
 #include <string.h>
 #include <assert.h>
 
-#define MAX_PROOF_OF_WORK 0x1e0ffff0     // highest value for difficulty target (higher values are less difficult)
+#define MAX_PROOF_OF_WORK 0x1d00ffff     // highest value for difficulty target (higher values are less difficult)
 #define TARGET_SPACING    (2.5 * 60)     // 1.5 minutes
 #define LYRA           347000
 #define BEGIN(a)          ((char*)&(a))
